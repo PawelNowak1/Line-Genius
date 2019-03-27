@@ -1,0 +1,38 @@
+Applications Memory Usage (kB):
+Uptime: 74915144 Realtime: 1741246494
+
+** MEMINFO in pid 13020 [com.pawelinkball.game] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap      838      820        0    14968    16772    16729       42
+  Dalvik Heap     2133     2124        0     7036    10181     6829     3352
+ Dalvik Other       72       72        0      252                           
+        Stack       52       52        0      132                           
+      Gfx dev   139022   137672        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1492       88      688     2004                           
+    .apk mmap      108        0        0        0                           
+    .dex mmap     3052        0     3048        0                           
+    .oat mmap      845        0      212        0                           
+    .art mmap      389       88       44     1440                           
+   Other mmap        7        4        0        8                           
+   EGL mtrack    11224    11224        0        0                           
+      Unknown       33       32        0      252                           
+        TOTAL   159271   152176     3996    26092    26953    23558     3394
+ 
+ Objects
+               Views:        5         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        6        AssetManagers:        6
+       Local Binders:        9        Proxy Binders:       14
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    : 1K
